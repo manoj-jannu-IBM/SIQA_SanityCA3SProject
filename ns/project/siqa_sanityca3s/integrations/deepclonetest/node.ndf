@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">siqabvt_updated</value>
-    <value name="createdDate">1792589925413</value>
-    <value name="lastModifiedDate">1792589925413</value>
+    <value name="lastModifiedBy">siqabvt_updated</value>
+    <value name="lastModifiedDate">1792590039560</value>
     <value name="displayName">deepclonetest</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -140,20 +139,8 @@
         <value name="nodePathNew">3</value>
         <number name="nodeIndex" type="Long">3</number>
         <number name="lineNumberForDebug" type="Long">4</number>
-        <value name="nodePathForDebug">3</value>
-        <Boolean name="hasBreakPoint">true</Boolean>
       </record>
-      <record name="/3/0" javaclass="com.wm.util.Values">
-        <value name="name">IF</value>
-        <value name="itemType">CONTROLS</value>
-        <value name="nodePathForDebug">3.0</value>
-      </record>
-      <record name="/3/0/0" javaclass="com.wm.util.Values">
-        <value name="itemType">CONTROLS</value>
-        <value name="name">THROWERROR</value>
-        <value name="nodePathForDebug">3.0.0</value>
-        <Boolean name="hasBreakPoint">true</Boolean>
-      </record>
+      <null name="/3/0"/>
     </record>
   </record>
   <value name="svc_in_validator_options">none</value>
