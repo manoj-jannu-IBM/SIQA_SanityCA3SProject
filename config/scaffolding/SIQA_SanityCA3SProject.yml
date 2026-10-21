@@ -36,8 +36,14 @@ packages:
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: JMSTest
+  version: "1.0"
   gitServerName: SIQAGitHub_updated
   gitUrl: https://github.com/prabhakarsag
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
+- name: SSL_JDBC_Test
+  gitServerName: SIQAGitHub_updated
+  gitUrl: https://github.com/prabhakaribm
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 services:
@@ -50,6 +56,8 @@ services:
   - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -71,6 +79,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
   - name: JMSTest
     version: "1.0"
   - name: WmJDBCAdapter
@@ -90,6 +100,8 @@ services:
   - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -115,6 +127,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
   - name: JMSTest
     version: "1.0"
   - name: WmJDBCAdapter
@@ -125,6 +139,14 @@ services:
     version: 10.7.0.0.71
   - name: SIQACloudStreamsTests
     version: "1.0"
+- serviceName: publisher:publisher
+  packages:
+  - name: JMSTest
+    version: "1.0"
+- serviceName: pub.jms:send
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2107
 - serviceName: project.siqa_sanityca3s.integrations:JMS_JNDI_SSL
   packages:
   - name: SIQA_SanityCA3SProject
@@ -134,6 +156,8 @@ services:
   - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -149,10 +173,6 @@ services:
   packages:
   - name: JMS2waySSL
     version: "1.0"
-- serviceName: pub.jms:send
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2107
 - serviceName: project.siqa_sanityca3s.integrations:SIQAAdapterFlow
   packages:
   - name: SIQA_SanityCA3SProject
@@ -162,6 +182,8 @@ services:
   - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
     version: "1.0"
   - name: JMSTest
     version: "1.0"
@@ -183,6 +205,8 @@ services:
     version: "1.0"
   - name: DADA_GlobalVariable1
     version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
   - name: JMSTest
     version: "1.0"
   - name: WmJDBCAdapter
@@ -197,6 +221,40 @@ services:
   packages:
   - name: DADA_ExtendedProperty
     version: "1.0"
+- serviceName: project.siqa_sanityca3s.integrations:deepclonetest
+  packages:
+  - name: SIQA_SanityCA3SProject
+    version: "1.0"
+  - name: DADA_ExtendedProperty
+    version: "1.0"
+  - name: JMS2waySSL
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
+    version: "1.0"
+  - name: JMSTest
+    version: "1.0"
+  - name: WmJDBCAdapter
+    version: 10.3.0.0.34
+    wpmServer: https://packages.webmethods.io
+    wpmRegistry: licensed
+  - name: WmSalesforceProvider
+    version: 10.7.0.0.71
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+- serviceName: pub.string:stringToBytes
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2107
+- serviceName: pub.utils:deepClone
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2107
+- serviceName: pub.string:bytesToString
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2107
 - serviceName: project.siqa_sanityca3s.integrations:globalVarTest
   packages:
   - name: SIQA_SanityCA3SProject
@@ -206,6 +264,8 @@ services:
   - name: JMS2waySSL
     version: "1.0"
   - name: DADA_GlobalVariable1
+    version: "1.0"
+  - name: SSL_JDBC_Test
     version: "1.0"
   - name: JMSTest
     version: "1.0"
