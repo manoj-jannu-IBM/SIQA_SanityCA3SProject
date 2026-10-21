@@ -1,0 +1,9 @@
+version: "1.0"
+projectName: SIQA_SanityCA3SProject
+runtimes:
+- runtimeAlias: SIQAERTCA3SPreprod
+  assets:
+  - name: fld_1181857214_stage00.projects.fl76003be926f0bd15050be6.integrations:csFlow
+    type: flow
+    stepId: /0
+    reference: fld_1181857214_stage00.projects.fl76003be926f0bd15050be6.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
