@@ -45,15 +45,15 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">siqabvt_updated</value>
-    <value name="createdDate">1792590690444</value>
-    <value name="lastModifiedDate">1792590690444</value>
+    <value name="lastModifiedBy">siqabvt_updated</value>
+    <value name="lastModifiedDate">1792590770546</value>
     <value name="displayName">parentFS</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
-        <value name="itemType">ALL</value>
-        <value name="name">NEW</value>
+        <value name="name">childFS</value>
+        <value name="displayName">childFS</value>
+        <value name="itemType">INTEGRATIONS</value>
       </record>
     </record>
   </record>
