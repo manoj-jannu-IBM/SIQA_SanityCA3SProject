@@ -8,10 +8,33 @@ packages:
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: DADA_GlobalVariable1
+  version: "1.0"
   gitServerName: SIQAGitHub_updated
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: DADA_ExtendedProperty
+  gitServerName: SIQAGitHub_updated
+  gitUrl: https://github.com/ParmelaDohling579
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
+services:
+- serviceName: project.siqa_sanityca3s.integrations:globalVarTest
+  packages:
+  - name: SIQA_SanityCA3SProject
+    version: "1.0"
+  - name: DADA_ExtendedProperty
+    version: "1.0"
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+- serviceName: GB_1:readGlobalvariable
+  packages:
+  - name: DADA_GlobalVariable1
+    version: "1.0"
+- serviceName: pub.globalVariable:getGlobalVariable
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2107
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
