@@ -34,10 +34,10 @@
   </record>
   <value name="description"></value>
   <value name="stateless">yes</value>
-  <value name="caching">no</value>
-  <value name="prefetch">no</value>
-  <value name="cache_ttl">15</value>
-  <value name="prefetch_level">1</value>
+  <value name="caching">yes</value>
+  <value name="prefetch">yes</value>
+  <value name="cache_ttl">5</value>
+  <value name="prefetch_level">3</value>
   <value name="audit_level">off</value>
   <value name="check_internal_acls">no</value>
   <value name="icontext_policy">$null</value>
@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">siqabvt_updated</value>
-    <value name="createdDate">1792590441109</value>
-    <value name="lastModifiedDate">1792590441109</value>
+    <value name="lastModifiedBy">siqabvt_updated</value>
+    <value name="lastModifiedDate">1792590476721</value>
     <value name="displayName">Sum</value>
     <value name="description"></value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
