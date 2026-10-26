@@ -45,9 +45,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">siqabvt_updated</value>
-    <value name="createdDate">1792586367814</value>
-    <value name="lastModifiedDate">1792586367814</value>
+    <value name="lastModifiedBy">siqabvt_updated</value>
+    <value name="lastModifiedDate">1793010577156</value>
     <value name="displayName">SIQAAdapterFlow</value>
     <value name="description"></value>
     <array name="appList" type="record" depth="1">
@@ -63,7 +62,7 @@
         <value name="name">Database</value>
         <value name="providerName">WmJDBCAdapter</value>
         <record name="operation" javaclass="com.wm.util.Values">
-          <value name="operationName">DBCusAcc</value>
+          <value name="operationName">DBCusACC</value>
           <value name="isCustom">true</value>
           <value name="operationType">actions</value>
           <value name="connectionType">sagcloud</value>
@@ -82,11 +81,11 @@
         <value name="type">Adapters</value>
         <value name="version">1.0</value>
         <record name="connection" javaclass="com.wm.util.Values">
-          <value name="connectionName">Database_1</value>
+          <value name="connectionName">Database_2</value>
           <value name="connectionType">sagcloud</value>
           <null name="description"/>
         </record>
-        <value name="connectionNSName">project.siqa_sanityca3s.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_1</value>
+        <value name="connectionNSName">project.siqa_sanityca3s.WmJDBCAdapter.com_wm_adapter_wmjdbc_JDBCAdapter.connections:Database_2</value>
         <value name="connectionType">sagcloud</value>
         <Boolean name="accountReferenceResolved">true</Boolean>
         <Boolean name="serviceReferenceResolved">true</Boolean>
@@ -108,6 +107,7 @@
         <number name="nodeIndex" type="Long">0</number>
         <number name="lineNumberForDebug" type="Long">1</number>
         <null name="outputMapSet"/>
+        <value name="nodePathForDebug">0</value>
       </record>
     </record>
   </record>
