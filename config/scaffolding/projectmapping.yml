@@ -12,6 +12,12 @@ runtimes:
     uid: fl7d21f0073cd94cbf27dda9
     stepId: a0
     reference: project.siqa_sanityca3s.integrations:Sum
+- runtimeAlias: SIQAERTAzPreprod29Oct
+  assets:
+  - name: fld_1179861829_stage00.projects.fla76498c86dc51d01a14c0f.integrations:csFlow
+    type: flow
+    stepId: /0
+    reference: fld_1179861829_stage00.projects.fla76498c86dc51d01a14c0f.WmPackageServiceProvider.SIQACloudStreamsTests:connetorOperations
 - runtimeAlias: SIQAERTCA3SPreprod
   assets:
   - name: fld_1181857214_stage00.projects.fl76003be926f0bd15050be6.integrations:csFlow
